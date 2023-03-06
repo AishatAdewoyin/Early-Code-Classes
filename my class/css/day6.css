@@ -1,0 +1,23 @@
+#parent{
+    background-color: limegreen;
+    border: 3px solid;
+    padding: 20px;
+}
+
+/* Parent selector comes with space */
+#parent li{
+    font-size: 40px;
+    list-style: none;
+}
+
+/* While direct child selector comes with "> the greater than sign" */
+
+#parent > .wrap{
+    border: 2px solid;
+}
+
+/* Siblings selectors: Adjacent siblings which comes in + plus sign while the general siblingd comes with ~ tilda sign*/
+
+/* pseudoclass (selector): can be used when you decides to treat a special class on its own or you decide to make changes to an element on its own i.e use a child selector > to select a pseudoclass i.e li:hover or button:active or button:focus (can not be used on every element). Pseudoclass ()child : first-child, last-child, nth-child  */
+
+

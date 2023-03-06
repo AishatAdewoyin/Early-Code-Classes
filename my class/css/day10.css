@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0px 60px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 89, 255);
+
+    height: 100vh;
+    background-image: url(../images/lady.jpg);
+    /* background-size: contain; or cover*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; align the image to center. top sets image top. bottom top left right etc */
+    background-attachment: fixed;
+}
+
+.two{
+    background-image: url(../images/download.jpg);
+}
+
+.three{
+    background-image: url(../images/new.jpg);
+}
+

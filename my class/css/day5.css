@@ -1,0 +1,40 @@
+body{
+    background-color: blue;
+}
+
+
+.container{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration-skip: underline;
+
+    /* border: solid;
+    border-style:groove;
+    border-width: 20px;
+    border-color: purple; */
+
+    border: 20px groove purple;
+    border: bottom;
+    width: 500px;
+    height: 500px;
+    /* border-radius: 50%; */
+    /* border-bottom-left-radius: 20px ; "border-width" is only used in controlling the boder, while "width and height and border-radius (that comes in percentage)" can be used to controll the whole box model*/
+
+    /* margin: 40px 20px 30px 20px; this goes clockwise i.e top, right, bottom, left or margin:40px 20px; this goes for the top-bottom right-left. You can also write them differently  as in margin-top: 20px; margin-right: 10px.
+    
+    Padding: is used to space the in inside of a box while margin is used at the outside*/
+
+
+     margin: 40px auto;
+     padding: 30px;
+     box-shadow: 30px 40px 20px 30px rgb(255, 4, 4);
+                 40px 30px 30px 40px;
+
+     /* shadows are positioned in x&y axis as in x which is the vertical - , and y which is the horizontal.
+     We have five values that can come with our box-shadow first value is for the x axis, second value is for the y axis. The third value is for BLUR, the fourth is for SPREAD. The fifth is the colour. ALL THIS ADDS SHADOR OUTSIDE THE BOX
+     
+     IF YOU INTEND TO ADD SHADOW INTO THE BOX: The value (syntax) "inset" should be used in this regard*/
+
+
+}

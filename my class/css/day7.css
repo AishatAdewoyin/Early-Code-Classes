@@ -1,0 +1,71 @@
+/* img{
+    width: 200;
+    display: inline;
+    border: 1px;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    display: block;
+    color: blueviolet;
+} */
+
+/* .wrap div{
+    border: 2px;
+    padding: 30px;
+} */
+
+ /* .wrap{
+    display: flex;
+    gap: 200px; 
+    justify-content: end;
+    align-items: center;  can only be used for
+    flex-direction: column;
+
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    padding: 10px;
+    text-decoration: none;
+ }
+
+ .navbrand{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .nav-items{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+    }
+ 
+ .navlimk{
+    color: white;
+    text-decoration: none;
+ }
+
+ .navlink:hover{
+    color: yellow;
+ }
+
+.brand{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.blue {
+    width: 60%;
+    position: relative;
+}
+
+/* .blue{
+    width: ;
+} */
+
+.big {
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    font-size: 300px;
+    position: absolute;
+    top: 32%;
+    left: 32%;
+    color: skyblue;
+}
+
+.white {
+    display: grid;
+    align-content: center;
+}
+
+.white>div {
+    padding: 15px;
+}
+
+.white>.fa-twitter {
+
+    color: #7988e2;
+    font-size: 50px;
+}
+
+.btn {
+    color: #7988e2;
+    margin-right: 55%;
+
+}
+
+.white a:hover {
+    background-color: #7988e2;
+    color: white;
+    /* transform: translateX(50%); */
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s */
+    transition: all cubic-bezier(0, 0, 0.75, 0.49);
+}
+

@@ -1,0 +1,48 @@
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    background-color: blue;
+    top: 50px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.absolute{
+    background-color: hotpink;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 3;
+}
+
+/* if the parent is relative and the child is absolute, the child is relative to the parent in this situation. then the child will not move away from its parent. meaning the child will always remain relative to its parent */
+.box{
+    background-color: brown;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.fixed{
+    
+    background-color: rgba(255, 0, 0, 0.452);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky{
+    position: sticky;
+    background-color: blueviolet;
+    padding: 20px;
+    top: 0px;
+    z-index: 999999999;
+}

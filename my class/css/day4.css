@@ -1,0 +1,19 @@
+ /***************************TAG SELECTORS******************************/
+ 
+ p{
+    color: hotpink;
+    font-weight: bold;
+    font-size: 40px;
+  }
+   /***************************CLASS SELECTORS******************************/
+ 
+  .jack-jill{
+    color: #f30e0e ;
+  }
+   /***************************ID SELECTORS******************************/
+ 
+  #john_bull{
+    color: rgb(10, 11, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+  }
